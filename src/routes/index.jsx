@@ -10,11 +10,11 @@ import { Projeto } from "../pages/Projeto/Projeto"
         return(
             <Router>
                 <Routes>
-                    <Route path="/" exact element={<Home />} />
-                    <Route path="/login" exact element={<Login />} />
-                    <Route path="/cadastro" exact element={<Cadastro />} />
-                    <Route path="/home" exact element={<Home />} />
-                    <Route path="/blog" exact element={<Projeto />} />                
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/cadastro" element={<Cadastro />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/blog" element={<Projeto />} />                
                 </Routes>
             </Router>
         )
